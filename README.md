@@ -1,8 +1,8 @@
-forked from : Darcy Clarke's Front-end-Developer-Interview-Questions(https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
+forked from : Darcy Clarke's [Front-end-Developer-Interview-Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
 
 #Front-end Job Interview Questions
 
-This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+This repo contains a number of front-end interview questions that can help you be better prepared for a front end interview. It is by no means complete.
 
 [Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) is also a great resource to read up on before you head into an interview.
 
@@ -10,66 +10,15 @@ This repo contains a number of front-end interview questions that can be used wh
 
 ## <a name='toc'>Table of Contents</a>
 
-  1. [Original Contributors](#contributors)
-  1. [General Questions](#general)
   1. [HTML Questions](#html)
   1. [CSS Questions](#css)
   1. [JS Questions](#js)
   1. [jQuery Questions](#jquery)
   1. [Coding Questions](#jscode)
+  1. [Open Questions](#open)
   1. [Fun Questions](#fun)
   1. [Other Great References](#references)
-
-####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
-
-The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
-
-* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
-* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
-* [@ajpiano](http://ajpiano) - http://ajpiano.com
-* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
-* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
-* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
-* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
-* [@gf3](http://twitter.com/gf3) - http://gf3.ca
-* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
-* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
-
-####[[⬆]](#toc) <a name='general'>General Questions:</a>
-
-* What did you learn yesterday/this week?
-* What excites or interests you about coding?
-* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
-* Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
-* Which version control systems are you familiar with?
-* Can you describe your workflow when you create a web page?
-* Can you describe the difference between progressive enhancement and graceful degradation?
-  * Bonus points for describing feature detection
-* Explain what "Semantic HTML" means.
-* How would you optimize a websites assets/resources?
-  * Looking for a number of solutions which can include:
-    * File concatenation
-    * File minification
-    * CDN Hosted
-    * Caching
-    * etc.
-* Why is it better to serve site assets from multiple domains?
-  * How many resources will a browser download from a given domain at a time?
-* Name 3 ways to decrease page load. (perceived or actual load time)
-* If you jumped on a project and they used tabs and you used spaces, what would you do?
-  * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
-  * Conform to the conventions (stay consistent)
-  * `issue :retab! command`
-* Write a simple slideshow page
-  * Bonus points if it does not use JS.
-* What tools do you use to test your code's performance?
-  * Profiler, JSPerf, Dromaeo
-* If you could master one technology this year, what would it be?
-* What are the differences between Long-Polling, Websockets and SSE?
-* Explain the importance of standards and standards bodies.
-* What is FOUC? How do you avoid FOUC?
-* Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
+  1. [Original Contributors](#contributors)
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
@@ -82,12 +31,12 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * What are `data-` attributes good for?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between cookies, sessionStorage and localStorage.
-* Can you explain the difference between `GET` and `POST`?
+* Can you explain the differences among `GET`, `POST`, `PUT`, and `DELETE`?
 
 ####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
 
 * Describe what a "reset" CSS file does and how it's useful.
-* Describe Floats and how they work.
+* Describe floats and how they work.
 * Describe z-index and how stacking context is formed.
 * What are the various clearing techniques and which is appropriate for what context?
 * Explain CSS sprites, and how you would implement them on a page or site.
@@ -223,6 +172,41 @@ foo.push(2);
 
 **Answer: `2`**
 
+####[[⬆]](#toc) <a name='open'>Open Questions:</a>
+
+* What did you learn yesterday/this week?
+* What excites or interests you about coding?
+* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
+* Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
+* Which version control systems are you familiar with?
+* Can you describe your workflow when you create a web page?
+* Can you describe the difference between progressive enhancement and graceful degradation?
+  * Bonus points for describing feature detection
+* Explain what "Semantic HTML" means.
+* How would you optimize a websites assets/resources?
+  * Looking for a number of solutions which can include:
+    * File concatenation
+    * File minification
+    * CDN Hosted
+    * Caching
+    * etc.
+* Why is it better to serve site assets from multiple domains?
+  * How many resources will a browser download from a given domain at a time?
+* Name 3 ways to decrease page load. (perceived or actual load time)
+* If you jumped on a project and they used tabs and you used spaces, what would you do?
+  * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
+  * Conform to the conventions (stay consistent)
+  * `issue :retab! command`
+* Write a simple slideshow page
+  * Bonus points if it does not use JS.
+* What tools do you use to test your code's performance?
+  * Profiler, JSPerf, Dromaeo
+* If you could master one technology this year, what would it be?
+* What are the differences between Long-Polling, Websockets and SSE?
+* Explain the importance of standards and standards bodies.
+* What is FOUC? How do you avoid FOUC?
+* Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
+
 ####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
 * What's the coolest thing you've ever coded, what are you most proud of?
@@ -237,3 +221,19 @@ foo.push(2);
 * http://css-tricks.com/interview-questions-css/
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
+
+####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
+
+The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
+
+* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
+* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
+* [@ajpiano](http://ajpiano) - http://ajpiano.com
+* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
+* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
+* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
+* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
+* [@gf3](http://twitter.com/gf3) - http://gf3.ca
+* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
+* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
+* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
