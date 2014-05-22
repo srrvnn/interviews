@@ -1,6 +1,6 @@
 forked from : Darcy Clarke's [Front-end-Developer-Interview-Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
 
-#Front-end Job Interview Questions
+#Front-end Interview Questions
 
 This repo contains a number of front-end interview questions that can help you be better prepared for a front end interview. It is by no means complete.
 
@@ -23,6 +23,8 @@ This repo contains a number of front-end interview questions that can help you b
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
 * What's a `doctype` do?
+  (http://www.htmlbasictutor.ca/doctype-declaration.htm)
+
 * What's the difference between standards mode and quirks mode?
 * What are the limitations when serving XHTML pages?
   * Are there any problems with serving pages as `application/xhtml+xml`?
