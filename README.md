@@ -23,7 +23,8 @@ This repo contains a number of front-end interview questions that can help you b
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
 * What's a `doctype` do?
-  (http://www.htmlbasictutor.ca/doctype-declaration.htm)
+
+  http://www.htmlbasictutor.ca/doctype-declaration.htm
 
 * What's the difference between standards mode and quirks mode?
 * What are the limitations when serving XHTML pages?
