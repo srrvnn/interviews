@@ -1,3 +1,5 @@
+forked from : Darcy Clarke's Front-end-Developer-Interview-Questions(https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
+
 #Front-end Job Interview Questions
 
 This repo contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
@@ -105,14 +107,14 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
   * Webfonts (font services like: Google Webfonts, Typekit etc.)
 * Explain how a browser determines what elements match a CSS selector?
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
-* What does ```* { box-sizing: border-box; }``` do? What are its advantages? 
+* What does ```* { box-sizing: border-box; }``` do? What are its advantages?
 * List as many values for the display property that you can remember.
 * What's the difference between inline and inline-block?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
 * What existing CSS frameworks have you used locally, or in production? (Bootstrap, PureCSS, Foundation etc.)
-  * If so, which ones? If you could, how would you change/improve them? 
+  * If so, which ones? If you could, how would you change/improve them?
 * Have you played around with the new CSS Flexbox or Grid specs?
-  * If so, what do you think of them from a performance standpoint? 
+  * If so, what do you think of them from a performance standpoint?
 
 ####[[⬆]](#toc) <a name='js'>JS Questions:</a>
 
@@ -122,7 +124,7 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 * How do you go about testing your JavaScript?
 * AMD vs. CommonJS?
 * What's a hashtable?
-* Explain why the following doesn't work as an IIFE: `function foo(){ }();`. 
+* Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
   * What needs to be changed to properly make it an IIFE?
 * What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
   * How would you go about checking for any of these states?
