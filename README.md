@@ -109,7 +109,7 @@ This repo contains a number of front-end interview questions that can help you b
 * Explain how you would get a query string parameter from the browser window's URL.
 * Explain the same-origin policy with regards to JavaScript.
 
-  https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy#How_to_allow_cross-origin_access
+  https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
   http://stackoverflow.com/questions/3076414/ways-to-circumvent-the-same-origin-policy
   
 * Describe inheritance patterns in JavaScript.
