@@ -76,8 +76,16 @@ This repo contains a number of front-end interview questions that can help you b
 * How do you go about testing your JavaScript?
 * AMD vs. CommonJS?
 * What's a hashtable?
+* What's IIFE?
+
+  http://benalman.com/news/2010/11/immediately-invoked-function-expression/ 
+  
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
   * What needs to be changed to properly make it an IIFE?
+
+    Parathesis need to be added around the entire function string. 
+
+  
 * What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
   * How would you go about checking for any of these states?
 * What is a closure, and how/why would you use one?
