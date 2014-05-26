@@ -81,6 +81,9 @@ This repo contains a number of front-end interview questions that can help you b
   http://benalman.com/news/2010/11/immediately-invoked-function-expression/ 
   
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
+
+  When the parser encounters the function keyword in the global scope or inside a function, it treats it as a function     declaration (statement), and not as a function expression, by default. And, paranthesis placed after a statement are     totally seperate from the statement and are simply a grouping operator. This will result in : SyntaxError: Unexpected    token ), because the compiler is expecting an expression inside the grouping operator.
+
   * What needs to be changed to properly make it an IIFE?
 
     Parathesis need to be added around the entire function string. 
