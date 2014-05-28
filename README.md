@@ -27,6 +27,9 @@ This repo contains a number of front-end interview questions that can help you b
   http://www.htmlbasictutor.ca/doctype-declaration.htm
 
 * What's the difference between standards mode and quirks mode?
+
+  https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode
+  
 * What are the limitations when serving XHTML pages?
   * Are there any problems with serving pages as `application/xhtml+xml`?
 * How do you serve a page with content in multiple languages?
