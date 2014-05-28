@@ -73,7 +73,11 @@ This repo contains a number of front-end interview questions that can help you b
 
 ####[[⬆]](#toc) <a name='js'>JS Questions:</a>
 
-* Explain event delegation
+* Explain event delegation.
+* How would you create and call custom events in JavaScript?
+
+  http://www.sitepoint.com/javascript-custom-events/ 
+  
 * Explain how `this` works in JavaScript
 * Explain how prototypal inheritance works
 * How do you go about testing your JavaScript?
