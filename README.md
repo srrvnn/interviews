@@ -74,6 +74,9 @@ This repo contains a number of front-end interview questions that can help you b
 ####[[⬆]](#toc) <a name='js'>JS Questions:</a>
 
 * Explain event delegation.
+  
+  http://yuilibrary.com/yui/docs/event/delegation.html
+
 * How would you create and call custom events in JavaScript?
 
   http://www.sitepoint.com/javascript-custom-events/ 
