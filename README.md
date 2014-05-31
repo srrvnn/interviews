@@ -206,6 +206,10 @@ foo.push(2);
 
 **Answer: `2`**
 
+* How would you disable all console.log statements in one line? 
+
+  http://stackoverflow.com/questions/1215392/how-to-quickly-and-conveniently-disable-all-console-log-statements-in-my-code
+
 ####[[⬆]](#toc) <a name='open'>Open Questions:</a>
 
 * What did you learn yesterday/this week?
