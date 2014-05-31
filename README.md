@@ -144,6 +144,11 @@ This repo contains a number of front-end interview questions that can help you b
 * What is the arity of a function?
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 
+* What is a polyfill?
+
+  http://remysharp.com/2010/10/08/what-is-a-polyfill/
+
+
 ####[[⬆]](#toc) <a name='jquery'>jQuery Questions:</a>
 
 * Explain "chaining".
