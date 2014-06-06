@@ -56,6 +56,10 @@ This repo contains a number of front-end interview questions that can help you b
 * Any familiarity with styling SVG?
 * How do you optimize your webpages for print?
 * What are some of the "gotchas" for writing efficient CSS?
+* What is the difference between `display:none` and `visibility:hidden`?
+c 
+  http://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone?rq=1
+
 * What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS)
   * If so, describe what you like and dislike about the CSS preprocessors you have used.
 * How would you implement a web design comp that uses non-standard fonts?
@@ -111,6 +115,9 @@ This repo contains a number of front-end interview questions that can help you b
 * What's the difference between host objects and native objects?
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * What's the difference between `.call` and `.apply`?
+  
+  http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply?rq=1  
+
 * explain `Function.prototype.bind`?
 * When do you optimize your code?
 * Can you explain how inheritance works in JavaScript?
