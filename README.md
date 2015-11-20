@@ -4,13 +4,7 @@ forked from : Darcy Clarke's [Front-end-Developer-Interview-Questions](https://g
 
 This is an incomplete document with an array of front-end interview questions, and some well-written answers.
 
-## <a name='toc'>Table of Contents</a>
-
-  1. [HTML5](#html)
-  1. [CSS](#css)
-  1. [JavaScript](#js)
-
-####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
+### HTML5
 
 What's a `doctype` do? <br/>
   http://www.htmlbasictutor.ca/doctype-declaration.htm
@@ -30,7 +24,7 @@ What's the difference between standards mode and quirks mode? <br/>
 
 * Can you explain the differences among `GET`, `POST`, `PUT`, and `DELETE`?
 
-####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
+### CSS
 
 * Describe what a "reset" CSS file does and how it's useful.
 * Describe floats and how they work.
@@ -51,7 +45,7 @@ What's the difference between standards mode and quirks mode? <br/>
 * How do you optimize your webpages for print?
 * What are some of the "gotchas" for writing efficient CSS?
 * What is the difference between `display:none` and `visibility:hidden`?
-c 
+
   http://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone?rq=1
 
 * What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS)
@@ -69,7 +63,7 @@ c
 * Have you played around with the new CSS Flexbox or Grid specs?
   * If so, what do you think of them from a performance standpoint?
 
-####[[⬆]](#toc) <a name='js'>JS Questions:</a>
+### JavaScript
 
 * Explain event delegation.
   
@@ -150,7 +144,7 @@ c
   http://remysharp.com/2010/10/08/what-is-a-polyfill/
 
 
-####[[⬆]](#toc) <a name='jquery'>jQuery Questions:</a>
+### jQuery
 
 * Explain "chaining".
 * Explain "deferreds".
@@ -170,7 +164,7 @@ $(".foo div#bar:eq(0)")
 
 How would you disable all console.log statements in one line? <br/> http://stackoverflow.com/questions/1215392/how-to-quickly-and-conveniently-disable-all-console-log-statements-in-my-code
 
-####[[⬆]](#toc) <a name='open'>Open Questions:</a>
+### Open Questions
 
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
@@ -205,7 +199,7 @@ How would you disable all console.log statements in one line? <br/> http://stack
 * What is FOUC? How do you avoid FOUC?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
 
-####[[⬆]](#toc) <a name='references'>Other Great References:</a>
+### References
 
 * [Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
@@ -214,7 +208,7 @@ How would you disable all console.log statements in one line? <br/> http://stack
 * http://davidshariff.com/quiz/
 * http://blog.sourcing.io/interview-questions
 
-####[[⬆]](#toc) <a name='contributors'>Original Contributors:</a>
+### Contributors
 
 The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
 
