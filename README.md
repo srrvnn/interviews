@@ -2,37 +2,38 @@ forked from : Darcy Clarke's [Front-end-Developer-Interview-Questions](https://g
 
 # Front-end Interview Questions
 
-This is an incomplete document with an array of front-end interview questions.
+This is an incomplete document with an array of front-end interview questions, and some well-written answers.
 
 ## <a name='toc'>Table of Contents</a>
 
-  1. [HTML Questions](#html)
-  1. [CSS Questions](#css)
-  1. [JS Questions](#js)
-  1. [jQuery Questions](#jquery)
-  1. [Coding Questions](#jscode)
-  1. [Open Questions](#open)
-  1. [Fun Questions](#fun)
-  1. [Other Great References](#references)
-  1. [Original Contributors](#contributors)
+  1. [HTML](#html)
+  1. [CSS](#css)
+  1. [JS](#js)
+  1. [jQuery](#jquery)
+  1. [Coding](#jscode)
+  1. [Open](#open)
+  1. [Fun](#fun)
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
 * What's a `doctype` do?
-
+  
   http://www.htmlbasictutor.ca/doctype-declaration.htm
 
 * What's the difference between standards mode and quirks mode?
-
+  
   https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode
   
-* What are the limitations when serving XHTML pages?
-  * Are there any problems with serving pages as `application/xhtml+xml`?
-* How do you serve a page with content in multiple languages?
-  * What kind of things must you be wary of when design or developing for multilingual sites?
+* What are the limitations when serving XHTML pages? Are there any problems with serving pages as `application/xhtml+xml`?
+
+* How do you serve a page with content in multiple languages? What kind of things must you be wary of when design or developing for multilingual sites?
+
 * What are `data-` attributes good for?
+
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+
 * Describe the difference between cookies, sessionStorage and localStorage.
+
 * Can you explain the differences among `GET`, `POST`, `PUT`, and `DELETE`?
 
 ####[[⬆]](#toc) <a name='css'>CSS Questions:</a>
