@@ -12,12 +12,10 @@ This is an incomplete document with an array of front-end interview questions, a
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
-* What's a `doctype` do?
-  
+What's a `doctype` do? <br/>
   http://www.htmlbasictutor.ca/doctype-declaration.htm
 
-* What's the difference between standards mode and quirks mode?
-  
+What's the difference between standards mode and quirks mode? <br/>
   https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode
   
 * What are the limitations when serving XHTML pages? Are there any problems with serving pages as `application/xhtml+xml`?
@@ -170,47 +168,7 @@ c
 $(".foo div#bar:eq(0)")
 ```
 
-####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
-
-```javascript
-modulo(12, 5) // 2
-```
-*Question: Implement a modulo function that satisfies the above*
-
-
-```javascript
-"i'm a lasagna hog".split("").reverse().join("");
-```
-*Question: What value is returned from the above statement?*
-
-**Answer: "goh angasal a m'i"**
-
-```javascript
-( window.foo || ( window.foo = "bar" ) );
-```
-*Question: What is the value of `window.foo`?*
-
-**Answer: "bar"** *(only if `window.foo` was falsey otherwise it will retain its value)*
-
-```javascript
-var foo = "Hello"; (function() { var bar = " World"; alert(foo + bar); })(); alert(foo + bar);
-```
-*Question: What is the outcome of the two alerts above?*
-
-**Answer: "Hello World" & ReferenceError: bar is not defined**
-
-```javascript
-var foo = [];
-foo.push(1);
-foo.push(2);
-```
-*Question: What is the value of `foo.length`?*
-
-**Answer: `2`**
-
-* How would you disable all console.log statements in one line? 
-
-  http://stackoverflow.com/questions/1215392/how-to-quickly-and-conveniently-disable-all-console-log-statements-in-my-code
+How would you disable all console.log statements in one line? <br/> http://stackoverflow.com/questions/1215392/how-to-quickly-and-conveniently-disable-all-console-log-statements-in-my-code
 
 ####[[⬆]](#toc) <a name='open'>Open Questions:</a>
 
@@ -230,8 +188,8 @@ foo.push(2);
     * CDN Hosted
     * Caching
     * etc.
-* Why is it better to serve site assets from multiple domains?
-  * How many resources will a browser download from a given domain at a time?
+* Why is it better to serve site assets from multiple domains? How many resources will a browser download from a given domain at a time?
+
 * Name 3 ways to decrease page load. (perceived or actual load time)
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
   * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
@@ -246,13 +204,6 @@ foo.push(2);
 * Explain the importance of standards and standards bodies.
 * What is FOUC? How do you avoid FOUC?
 * Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
-
-####[[⬆]](#toc) <a name='fun'>Fun Questions:</a>
-
-* What's the coolest thing you've ever coded, what are you most proud of?
-* What are your favorite parts about the developer tools you use?
-* Do you have any pet projects? What kind?
-* What's your favorite feature of Internet Explorer?
 
 ####[[⬆]](#toc) <a name='references'>Other Great References:</a>
 
