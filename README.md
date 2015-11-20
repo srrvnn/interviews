@@ -1,12 +1,8 @@
 forked from : Darcy Clarke's [Front-end-Developer-Interview-Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
 
-#Front-end Interview Questions
+# Front-end Interview Questions
 
-This repo contains a number of front-end interview questions that can help you be better prepared for a front end interview. It is by no means complete.
-
-[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/) is also a great resource to read up on before you head into an interview.
-
-**Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
+This is an incomplete document with an array of front-end interview questions.
 
 ## <a name='toc'>Table of Contents</a>
 
@@ -43,6 +39,9 @@ This repo contains a number of front-end interview questions that can help you b
 
 * Describe what a "reset" CSS file does and how it's useful.
 * Describe floats and how they work.
+
+  https://css-tricks.com/all-about-floats/
+
 * Describe z-index and how stacking context is formed.
 * What are the various clearing techniques and which is appropriate for what context?
 * Explain CSS sprites, and how you would implement them on a page or site.
@@ -176,7 +175,6 @@ $(".foo div#bar:eq(0)")
 
 ####[[⬆]](#toc) <a name='jscode'>Code Questions:</a>
 
-
 ```javascript
 modulo(12, 5) // 2
 ```
@@ -261,6 +259,7 @@ foo.push(2);
 
 ####[[⬆]](#toc) <a name='references'>Other Great References:</a>
 
+* [Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
 * http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
 * http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
 * http://css-tricks.com/interview-questions-css/
