@@ -6,13 +6,9 @@ This is an incomplete document with an array of front-end interview questions, a
 
 ## <a name='toc'>Table of Contents</a>
 
-  1. [HTML](#html)
+  1. [HTML5](#html)
   1. [CSS](#css)
-  1. [JS](#js)
-  1. [jQuery](#jquery)
-  1. [Coding](#jscode)
-  1. [Open](#open)
-  1. [Fun](#fun)
+  1. [JavaScript](#js)
 
 ####[[⬆]](#toc) <a name='html'>HTML Questions:</a>
 
