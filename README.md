@@ -7,72 +7,87 @@ This is an incomplete document with an array of front-end interview questions, a
 ### HTML5
 
 What's a `doctype` do? <br/>
-  http://www.htmlbasictutor.ca/doctype-declaration.htm
+http://www.htmlbasictutor.ca/doctype-declaration.htm
 
 What's the difference between standards mode and quirks mode? <br/>
-  https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode
-  
-* What are the limitations when serving XHTML pages? Are there any problems with serving pages as `application/xhtml+xml`?
+https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode
 
-* How do you serve a page with content in multiple languages? What kind of things must you be wary of when design or developing for multilingual sites?
+What are the limitations when serving XHTML pages? Are there any problems with serving pages as `application/xhtml+xml`? <br/>
 
-* What are `data-` attributes good for?
+How do you serve a page with content in multiple languages? What kind of things must you be wary of when design or developing  for multilingual sites? <br/>
 
-* Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+What are `data-` attributes good for? <br/>
 
-* Describe the difference between cookies, sessionStorage and localStorage.
+Consider HTML5 as an open web platform. What are the building blocks of HTML5? <br/>
 
-* Can you explain the differences among `GET`, `POST`, `PUT`, and `DELETE`?
+Describe the difference between cookies, sessionStorage and localStorage. <br/>
+
+Can you explain the differences among `GET`, `POST`, `PUT`, and `DELETE`? <br/>
 
 ### CSS
 
-* Describe what a "reset" CSS file does and how it's useful.
-* Describe floats and how they work.
+Describe what a "reset" CSS file does and how it's useful. <br/>
 
-  https://css-tricks.com/all-about-floats/
+Describe floats and how they work. <br/>
+https://css-tricks.com/all-about-floats/
 
-* Describe z-index and how stacking context is formed.
-* What are the various clearing techniques and which is appropriate for what context?
-* Explain CSS sprites, and how you would implement them on a page or site.
-* What are your favourite image replacement techniques and which do you use when?
-* CSS property hacks, conditionally included .css files, or... something else?
-* How do you serve your pages for feature-constrained browsers?
-  * What techniques/processes do you use?
-* What are the different ways to visually hide content (and make it available only for screen readers)?
-* Have you ever used a grid system, and if so, what do you prefer?
-* Have you used or implemented media queries or mobile specific layouts/CSS?
-* Any familiarity with styling SVG?
-* How do you optimize your webpages for print?
-* What are some of the "gotchas" for writing efficient CSS?
-* What is the difference between `display:none` and `visibility:hidden`?
+Describe z-index and how stacking context is formed. <br/>
 
-  http://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone?rq=1
+What are the various clearing techniques and which is appropriate for what context? <br/>
 
-* What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS)
-  * If so, describe what you like and dislike about the CSS preprocessors you have used.
-* How would you implement a web design comp that uses non-standard fonts?
-  * Webfonts (font services like: Google Webfonts, Typekit etc.)
-* Explain how a browser determines what elements match a CSS selector?
-* Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
-* What does ```* { box-sizing: border-box; }``` do? What are its advantages?
-* List as many values for the display property that you can remember.
-* What's the difference between inline and inline-block?
-* What's the difference between a relative, fixed, absolute and statically positioned element?
-* What existing CSS frameworks have you used locally, or in production? (Bootstrap, PureCSS, Foundation etc.)
-  * If so, which ones? If you could, how would you change/improve them?
-* Have you played around with the new CSS Flexbox or Grid specs?
-  * If so, what do you think of them from a performance standpoint?
+Explain CSS sprites, and how you would implement them on a page or site. <br/>
+
+What are your favourite image replacement techniques and which do you use when? <br/>
+
+CSS property hacks, conditionally included .css files, or... something else? <br/>
+
+How do you serve your pages for feature-constrained browsers? What techniques/processes do you use? <br/>
+
+What are the different ways to visually hide content (and make it available only for screen readers)? <br/>
+
+Have you ever used a grid system, and if so, what do you prefer? <br/>
+
+Have you used or implemented media queries or mobile specific layouts/CSS? <br/>
+
+Any familiarity with styling SVG? <br/>
+
+How do you optimize your webpages for print? <br/>
+
+What are some of the "gotchas" for writing efficient CSS? <br/>
+
+What is the difference between `display:none` and `visibility:hidden`? <br/>
+http://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone?
+
+What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS) If so, describe what you likeand dislike about the CSS preprocessors you have used.  <br/>
+
+How would you implement a web design comp that uses non-standard fonts? Webfonts (font services like: Google Webfonts, Typekitetc.)  <br/>
+
+Explain how a browser determines what elements match a CSS selector? <br/>
+
+Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models. <br/>
+
+What does ```{ box-sizing: border-box; }``` do? What are its advantages? <br/>
+
+List as many values for the display property that you can remember. <br/>
+
+What's the difference between inline and inline-block? <br/>
+
+What's the difference between a relative, fixed, absolute and statically positioned element? <br/>
+
+What existing CSS frameworks have you used locally, or in production? (Bootstrap, PureCSS, Foundation etc.) If so, which ones? If you could, how would you change/improve them?  <br/>
+
+Have you played around with the new CSS Flexbox or Grid specs? If so, what do you think of them from a performance standpoint? <br/>
 
 ### JavaScript
 
 * Explain event delegation.
-  
+
   http://yuilibrary.com/yui/docs/event/delegation.html
 
 * How would you create and call custom events in JavaScript?
 
-  http://www.sitepoint.com/javascript-custom-events/ 
-  
+  http://www.sitepoint.com/javascript-custom-events/
+
 * Explain how `this` works in JavaScript
 * Explain how prototypal inheritance works
 * How do you go about testing your JavaScript?
@@ -80,18 +95,18 @@ What's the difference between standards mode and quirks mode? <br/>
 * What's a hashtable?
 * What's IIFE?
 
-  http://benalman.com/news/2010/11/immediately-invoked-function-expression/ 
-  // just realized Ben Alman wrote Grunt! 
-  
+  http://benalman.com/news/2010/11/immediately-invoked-function-expression/
+  // just realized Ben Alman wrote Grunt!
+
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
 
   When the parser encounters the function keyword in the global scope or inside a function, it treats it as a function     declaration (statement), and not as a function expression, by default. And, paranthesis placed after a statement are     totally seperate from the statement and are simply a grouping operator. This will result in : SyntaxError: Unexpected    token ), because the compiler is expecting an expression inside the grouping operator.
 
   * What needs to be changed to properly make it an IIFE?
 
-    Parathesis need to be added around the entire function string. 
+    Parathesis need to be added around the entire function string.
 
-  
+
 * What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
   * How would you go about checking for any of these states?
 * What is a closure, and how/why would you use one?
@@ -103,8 +118,8 @@ What's the difference between standards mode and quirks mode? <br/>
 * What's the difference between host objects and native objects?
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * What's the difference between `.call` and `.apply`?
-  
-  http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply?rq=1  
+
+  http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply?rq=1
 
 * explain `Function.prototype.bind`?
 * When do you optimize your code?
@@ -128,7 +143,7 @@ What's the difference between standards mode and quirks mode? <br/>
 
   https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
   http://stackoverflow.com/questions/3076414/ways-to-circumvent-the-same-origin-policy
-  
+
 * Describe inheritance patterns in JavaScript.
 * Make this work:
 ```javascript

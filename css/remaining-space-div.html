@@ -1,0 +1,172 @@
+<!--
+	
+	challenge : 
+	create a layout such that one div always takes up the remaining horizontal space in the screen. 
+
+	-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>The Remaining Space Div</title>
+
+	<style> 
+
+	html, body, #container {
+
+		margin: 0;
+		padding: 0;
+		background-color: #ececec;
+	}
+
+	#wrapper {
+
+		/* center align the wrapper */
+
+		position: fixed;
+		/*top: 50%;*/
+		/*left: 50%;*/
+
+		/*transform : translate(-50%, -50%);*/
+
+		top: 0; 
+		bottom: 0; 
+		left: 0; 
+		right: 0; 
+
+		margin: auto; 
+
+		height: 740px;
+		width: 1140px;
+
+		/*margin: 0px auto;*/
+
+		background-color: #d1d3d3;
+		overflow: auto;	
+
+	}
+
+	#navigation, #list {
+
+		float: left;
+		text-align: center;
+	}
+
+	#navigation {
+
+		box-sizing: border-box;
+
+		height: 100%;
+		width: 200px;
+
+		border: 10px solid #d1d3d3;
+
+		/*margin: 10px;*/
+
+		background-color: #d1d3d3;
+	}
+
+	#list {
+
+		box-sizing: border-box;
+
+		height: 100%;
+		width: 250px;
+
+		border: 10px solid #d1d3d3;
+		border-left: none;
+
+		/*background-color: #f0532d;*/
+		background-color: #a4a9ad;
+	}
+
+	#canvas {
+
+		box-sizing: border-box;
+
+		height: 100%;
+		/*width: 590px;*/
+
+		border: 10px solid #d1d3d3;
+
+		background-color: #ffffff;
+	}
+
+	#content {
+
+		height: 100%;
+		display: table;
+
+		/*margin-right: 50px;*/
+	}
+
+	/* STYLES IRRELEVANT FOR THIS PROBLEM */
+
+	button {
+
+		display: block;
+
+		width: 100px;
+		height: 40px;
+
+		background-color: #00788a;
+		border-radius: 10px;
+	}
+
+	button.link {
+
+		margin: 10px auto 20px;
+
+	}
+
+	form {
+
+		margin: 25px;
+	}
+
+	</style>
+
+</head>
+
+<body>
+
+	<div id="container">
+
+		<div id="wrapper"> 
+
+			<div id="navigation"> 
+
+				<!-- <button class="link"> </button>
+
+				<button class="link"> </button>
+
+				<button class="link"> </button>
+
+				<button class="link"> </button>
+
+				<button class="link"> </button> -->
+
+			</div>
+
+			<!-- <div id="list"> </div> -->
+
+			<div id="canvas"> 
+
+				<div id="content">
+
+					<form>
+
+						<input type="text" value="Vannakam Ulagam" />
+
+						<html>
+					</form>
+
+				</div> <!-- END OF #content -->
+
+			</div> <!-- END OF #canvas -->
+
+		</div> <!-- END OF #wrapper -->
+
+</body>
+</html>
