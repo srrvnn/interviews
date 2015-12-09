@@ -12,9 +12,9 @@ http://www.htmlbasictutor.ca/doctype-declaration.htm
 What's the difference between standards mode and quirks mode? <br/>
 https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode
 
-What are the limitations when serving XHTML pages? Are there any problems with serving pages as `application/xhtml+xml`? <br/>
+What are the limitations when serving XHTML pages, as `application/xhtml+xml`? <br/>
 
-How do you serve a page with content in multiple languages? What kind of things must you be wary of when design or developing  for multilingual sites? <br/>
+How do you serve a page with content in multiple languages? <br/>
 
 What are `data-` attributes good for? <br/>
 
@@ -32,6 +32,7 @@ Describe floats and how they work. <br/>
 https://css-tricks.com/all-about-floats/
 
 Describe z-index and how stacking context is formed. <br/>
+http://philipwalton.com/articles/what-no-one-told-you-about-z-index/
 
 What are the various clearing techniques and which is appropriate for what context? <br/>
 
@@ -80,161 +81,207 @@ Have you played around with the new CSS Flexbox or Grid specs? If so, what do yo
 
 ### JavaScript
 
-* Explain event delegation.
+Explain event delegation. <br/>
+http://yuilibrary.com/yui/docs/event/delegation.html
 
-  http://yuilibrary.com/yui/docs/event/delegation.html
+How would you create and call custom events in JavaScript? <br/>
+http://www.sitepoint.com/javascript-custom-events/
 
-* How would you create and call custom events in JavaScript?
+Explain how `this` works in JavaScript <br/>
 
-  http://www.sitepoint.com/javascript-custom-events/
+Explain how prototypal inheritance works <br/>
 
-* Explain how `this` works in JavaScript
-* Explain how prototypal inheritance works
-* How do you go about testing your JavaScript?
-* AMD vs. CommonJS?
-* What's a hashtable?
-* What's IIFE?
+How do you go about testing your JavaScript? <br/>
 
-  http://benalman.com/news/2010/11/immediately-invoked-function-expression/
-  // just realized Ben Alman wrote Grunt!
+AMD vs. CommonJS? <br/>
 
-* Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
+What's a hashtable? <br/>
 
-  When the parser encounters the function keyword in the global scope or inside a function, it treats it as a function     declaration (statement), and not as a function expression, by default. And, paranthesis placed after a statement are     totally seperate from the statement and are simply a grouping operator. This will result in : SyntaxError: Unexpected    token ), because the compiler is expecting an expression inside the grouping operator.
+What's IIFE? <br/>
+http://benalman.com/news/2010/11/immediately-invoked-function-expression/
 
-  * What needs to be changed to properly make it an IIFE?
+Explain why the following doesn't work as an IIFE: `function foo(){ }();`. <br/>
 
-    Parathesis need to be added around the entire function string.
+When the parser encounters the function keyword in the global scope or inside a function, it treats it as a function     declaration (statement), and not as a function expression, by default. And, paranthesis placed after a statement are     totally seperate from the statement and are simply a grouping operator. This will result in : SyntaxError: Unexpected    token ), because the compiler is expecting an expression inside the grouping operator.
 
+What needs to be changed to properly make it an IIFE? <br/>
+Parathesis need to be added around the entire function string.
 
-* What's the difference between a variable that is: `null`, `undefined` or `undeclared`?
-  * How would you go about checking for any of these states?
-* What is a closure, and how/why would you use one?
-* What's a typical use case for anonymous functions?
-* Explain the "JavaScript module pattern" and when you'd use it.
-  * Bonus points for mentioning clean namespacing.
-  * What if your modules are namespace-less?
-* How do you organize your code? (module pattern, classical inheritance?)
-* What's the difference between host objects and native objects?
-* Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
-* What's the difference between `.call` and `.apply`?
+What's the difference between a variable that is: `null`, `undefined` or `undeclared`? <br/>
 
-  http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply?rq=1
+How would you go about checking for any of these states? <br/>
 
-* explain `Function.prototype.bind`?
-* When do you optimize your code?
-* Can you explain how inheritance works in JavaScript?
-* When would you use `document.write()`?
-  * Most generated ads still utilize `document.write()` although its use is frowned upon
-* What's the difference between feature detection, feature inference, and using the UA string
-* Explain AJAX in as much detail as possible
-* Explain how JSONP works (and how it's not really AJAX)
-* Have you ever used JavaScript templating?
-  * If so, what libraries have you used? (Mustache.js, Handlebars etc.)
-* Explain "hoisting".
-* Describe event bubbling.
-* What's the difference between an "attribute" and a "property"?
-* Why is extending built in JavaScript objects not a good idea?
-* Why is extending built ins a good idea?
-* Difference between document load event and document ready event?
-* What is the difference between `==` and `===`?
-* Explain how you would get a query string parameter from the browser window's URL.
-* Explain the same-origin policy with regards to JavaScript.
+What is a closure, and how/why would you use one? <br/>
 
-  https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
-  http://stackoverflow.com/questions/3076414/ways-to-circumvent-the-same-origin-policy
+What's a typical use case for anonymous functions? <br/>
 
-* Describe inheritance patterns in JavaScript.
-* Make this work:
+Explain the "JavaScript module pattern" and when you'd use it. <br/>
+
+Bonus points for mentioning clean namespacing. <br/>
+
+What if your modules are namespace-less? <br/>
+
+How do you organize your code? (module pattern, classical inheritance?) <br/>
+
+What's the difference between host objects and native objects? <br/>
+
+Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`? <br/>
+
+What's the difference between `.call` and `.apply`? <br/>
+http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply?rq=1
+
+Explain `Function.prototype.bind`? <br/>
+
+When do you optimize your code? <br/>
+
+Can you explain how inheritance works in JavaScript? <br/>
+
+When would you use `document.write()`? <br/>
+
+Most generated ads still utilize `document.write()` although its use is frowned upon <br/>
+
+What's the difference between feature detection, feature inference, and using the UA string <br/>
+
+Explain AJAX in as much detail as possible <br/>
+
+Explain how JSONP works (and how it's not really AJAX) <br/>
+
+Have you ever used JavaScript templating? <br/>
+
+If so, what libraries have you used? (Mustache.js, Handlebars etc.) <br/>
+
+Explain "hoisting". <br/>
+
+Describe event bubbling. <br/>
+
+What's the difference between an "attribute" and a "property"? <br/>
+
+Why is extending built in JavaScript objects not a good idea? <br/>
+
+Why is extending built ins a good idea? <br/>
+
+Difference between document load event and document ready event? <br/>
+
+What is the difference between `==` and `===`? <br/>
+
+Explain how you would get a query string parameter from the browser window's URL. <br/>
+
+Explain the same-origin policy with regards to JavaScript. <br/>
+https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
+http://stackoverflow.com/questions/3076414/ways-to-circumvent-the-same-origin-policy
+
+Describe inheritance patterns in JavaScript. <br/>
+
+Make this work: <br/>
 ```javascript
 [1,2,3,4,5].duplicate(); // [1,2,3,4,5,1,2,3,4,5]
 ```
-* Describe a strategy for memoization (avoiding calculation repetition) in JavaScript.
-* Why is it called a Ternary expression, what does the word "Ternary" indicate?
-* What is the arity of a function?
-* What is `"use strict";`? what are the advantages and disadvantages to using it?
+Describe a strategy for memoization (avoiding calculation repetition) in JavaScript. <br/>
 
-* What is a polyfill?
+Why is it called a Ternary expression, what does the word "Ternary" indicate? <br/>
 
-  http://remysharp.com/2010/10/08/what-is-a-polyfill/
+What is the arity of a function? <br/>
 
+What is `"use strict";`? what are the advantages and disadvantages to using it? <br/>
+
+What is a polyfill? <br/>
+http://remysharp.com/2010/10/08/what-is-a-polyfill/
 
 ### jQuery
 
-* Explain "chaining".
-* Explain "deferreds".
-* What are some jQuery specific optimizations you can implement?
-* What does `.end()` do?
-* How, and why, would you namespace a bound event handler?
-* Name 4 different values you can pass to the jQuery method.
-  * Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc.
-* What is the effects (or fx) queue?
-* What is the difference between `.get()`, `[]`, and `.eq()`?
-* What is the difference between `.bind()`, `.live()`, and `.delegate()`?
-* What is the difference between `$` and `$.fn`? Or just what is `$.fn`.
-* Optimize this selector:
+Explain "chaining". <br/>
+
+Explain "deferreds". <br/>
+
+What are some jQuery specific optimizations you can implement? <br/>
+
+What does `.end()` do? <br/>
+
+How, and why, would you namespace a bound event handler? <br/>
+
+Name 4 different values you can pass to the jQuery method. <br/>
+
+Selector (string), HTML (string), Callback (function), HTMLElement, object, array, element array, jQuery Object etc. <br/>
+
+What is the effects (or fx) queue? <br/>
+
+What is the difference between `.get()`, `[]`, and `.eq()`? <br/>
+
+What is the difference between `.bind()`, `.live()`, and `.delegate()`? <br/>
+
+What is the difference between `$` and `$.fn`? Or just what is `$.fn`. <br/>
+
+Optimize this selector: <br/>
+
 ```javascript
 $(".foo div#bar:eq(0)")
 ```
-
-How would you disable all console.log statements in one line? <br/> http://stackoverflow.com/questions/1215392/how-to-quickly-and-conveniently-disable-all-console-log-statements-in-my-code
+How would you disable all console.log statements in one line? <br/>
+http://stackoverflow.com/questions/1215392/how-to-quickly-and-conveniently-disable-all-console-log-statements-in-my-code
 
 ### Open Questions
 
-* What did you learn yesterday/this week?
-* What excites or interests you about coding?
-* What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
-* Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.)
-* Which version control systems are you familiar with?
-* Can you describe your workflow when you create a web page?
-* Can you describe the difference between progressive enhancement and graceful degradation?
-  * Bonus points for describing feature detection
-* Explain what "Semantic HTML" means.
-* How would you optimize a websites assets/resources?
-  * Looking for a number of solutions which can include:
-    * File concatenation
-    * File minification
-    * CDN Hosted
-    * Caching
-    * etc.
-* Why is it better to serve site assets from multiple domains? How many resources will a browser download from a given domain at a time?
+What did you learn yesterday/this week? <br/>
 
-* Name 3 ways to decrease page load. (perceived or actual load time)
-* If you jumped on a project and they used tabs and you used spaces, what would you do?
-  * Suggest the project utilize something like EditorConfig (http://editorconfig.org)
-  * Conform to the conventions (stay consistent)
-  * `issue :retab! command`
-* Write a simple slideshow page
-  * Bonus points if it does not use JS.
-* What tools do you use to test your code's performance?
-  * Profiler, JSPerf, Dromaeo
-* If you could master one technology this year, what would it be?
-* What are the differences between Long-Polling, Websockets and SSE?
-* Explain the importance of standards and standards bodies.
-* What is FOUC? How do you avoid FOUC?
-* Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
+What excites or interests you about coding? <br/>
+
+What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site? <br/>
+
+Talk about your preferred development environment. (OS, Editor, Browsers, Tools etc.) <br/>
+
+Which version control systems are you familiar with? <br/>
+
+Can you describe your workflow when you create a web page? <br/>
+
+Can you describe the difference between progressive enhancement and graceful degradation? <br/>
+
+Bonus points for describing feature detection <br/>
+
+Explain what "Semantic HTML" means. <br/>
+
+How would you optimize a websites assets/resources? <br/>
+
+Why is it better to serve site assets from multiple domains? How many resources will a browser download from a given domain at a time? <br/>
+
+Name 3 ways to decrease page load. (perceived or actual load time) <br/>
+
+If you jumped on a project and they used tabs and you used spaces, what would you do? <br/>
+
+Write a simple slideshow page <br/>
+
+What tools do you use to test your code's performance? <br/>
+
+If you could master one technology this year, what would it be? <br/>
+
+What are the differences between Long-Polling, Websockets and SSE? <br/>
+
+Explain the importance of standards and standards bodies. <br/>
+
+What is FOUC? How do you avoid FOUC? <br/>
+
+Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen. <br/>
 
 ### References
 
-* [Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)
-* http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before
-* http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/
-* http://css-tricks.com/interview-questions-css/
-* http://davidshariff.com/quiz/
-* http://blog.sourcing.io/interview-questions
+[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end- <br/>developers/)
+http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before <br/>
+http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/ <br/>
+http://css-tricks.com/interview-questions-css/ <br/>
+http://davidshariff.com/quiz/ <br/>
+http://blog.sourcing.io/interview-questions <br/>
 
 ### Contributors
 
 The majority of the questions were plucked from an [oksoclap](http://oksoclap.com/) thread created originally by [Paul Irish](http://paulirish.com) ([@paul_irish](http://twitter.com/paul_irish)) and contributed to by the following individuals:
 
-* [@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com
-* [@cowboy](http://twitter.com/cowboy) - http://benalman.com
-* [@ajpiano](http://ajpiano) - http://ajpiano.com
-* [@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com
-* [@boazsender](http://twitter.com/boazsender) - http://boazsender.com
-* [@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com
-* [@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com
-* [@gf3](http://twitter.com/gf3) - http://gf3.ca
-* [@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal
-* [@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com
-* [@iansym](http://twitter.com/iansym) - http://twitter.com/iansym
+[@bentruyman](http://twitter.com/bentruyman) - http://bentruyman.com <br/>
+[@cowboy](http://twitter.com/cowboy) - http://benalman.com <br/>
+[@ajpiano](http://ajpiano) - http://ajpiano.com <br/>
+[@SlexAxton](http://twitter.com/slexaxton) - http://alexsexton.com <br/>
+[@boazsender](http://twitter.com/boazsender) - http://boazsender.com <br/>
+[@miketaylr](http://twitter.com/miketaylr) - http://miketaylr.com <br/>
+[@vladikoff](http://twitter.com/vladikoff) - http://vladfilippov.com <br/>
+[@gf3](http://twitter.com/gf3) - http://gf3.ca <br/>
+[@jon_neal](http://twitter.com/jon_neal) - http://twitter.com/jon_neal <br/>
+[@wookiehangover](http://twitter.com/wookiehangover) - http://wookiehangover.com <br/>
+[@iansym](http://twitter.com/iansym) - http://twitter.com/iansym <br/>
