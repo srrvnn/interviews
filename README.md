@@ -24,6 +24,8 @@ Describe the difference between cookies, sessionStorage and localStorage. <br/>
 
 Can you explain the differences among `GET`, `POST`, `PUT`, and `DELETE`? <br/>
 
+What are your favorite brower APIs?
+
 ### CSS
 
 Describe what a "reset" CSS file does and how it's useful. <br/>
@@ -34,13 +36,13 @@ https://css-tricks.com/all-about-floats/
 Describe z-index and how stacking context is formed. <br/>
 http://philipwalton.com/articles/what-no-one-told-you-about-z-index/
 
+What's your take on the Holy Grail? <br/>
+
 What are the various clearing techniques and which is appropriate for what context? <br/>
 
 Explain CSS sprites, and how you would implement them on a page or site. <br/>
 
 What are your favourite image replacement techniques and which do you use when? <br/>
-
-CSS property hacks, conditionally included .css files, or... something else? <br/>
 
 How do you serve your pages for feature-constrained browsers? What techniques/processes do you use? <br/>
 
@@ -59,7 +61,7 @@ What are some of the "gotchas" for writing efficient CSS? <br/>
 What is the difference between `display:none` and `visibility:hidden`? <br/>
 http://stackoverflow.com/questions/133051/what-is-the-difference-between-visibilityhidden-and-displaynone?
 
-What are the advantages/disadvantages of using CSS preprocessors? (SASS, Compass, Stylus, LESS) If so, describe what you likeand dislike about the CSS preprocessors you have used.  <br/>
+What are the advantages/disadvantages of using CSS preprocessors? <br/>
 
 How would you implement a web design comp that uses non-standard fonts? Webfonts (font services like: Google Webfonts, Typekitetc.)  <br/>
 
@@ -75,9 +77,12 @@ What's the difference between inline and inline-block? <br/>
 
 What's the difference between a relative, fixed, absolute and statically positioned element? <br/>
 
-What existing CSS frameworks have you used locally, or in production? (Bootstrap, PureCSS, Foundation etc.) If so, which ones? If you could, how would you change/improve them?  <br/>
+What's your favorite CSS framework?  <br/>
 
 Have you played around with the new CSS Flexbox or Grid specs? If so, what do you think of them from a performance standpoint? <br/>
+
+Where would you initial, inherit or unset values in CSS?
+http://www.quirksmode.org/css/cascading/values.html
 
 ### JavaScript
 
