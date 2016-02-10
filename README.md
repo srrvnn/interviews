@@ -13,18 +13,21 @@ What's the difference between standards mode and quirks mode? <br/>
 https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode
 
 What are the limitations when serving XHTML pages, as `application/xhtml+xml`? <br/>
+http://www.webdevout.net/articles/beware-of-xhtml
 
 How do you serve a page with content in multiple languages? <br/>
 
 What are `data-` attributes good for? <br/>
 
 Consider HTML5 as an open web platform. What are the building blocks of HTML5? <br/>
+https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+http://code.tutsplus.com/tutorials/28-html5-features-tips-and-techniques-you-must-know--net-13520
 
 Describe the difference between cookies, sessionStorage and localStorage. <br/>
 
 Can you explain the differences among `GET`, `POST`, `PUT`, and `DELETE`? <br/>
 
-What are your favorite brower APIs?
+What are your favorite browser API?
 
 ### CSS
 
@@ -122,8 +125,6 @@ What's a typical use case for anonymous functions? <br/>
 
 Explain the "JavaScript module pattern" and when you'd use it. <br/>
 
-Bonus points for mentioning clean namespacing. <br/>
-
 What if your modules are namespace-less? <br/>
 
 How do you organize your code? (module pattern, classical inheritance?) <br/>
@@ -140,6 +141,9 @@ Explain `Function.prototype.bind`? <br/>
 When do you optimize your code? <br/>
 
 Can you explain how inheritance works in JavaScript? <br/>
+
+What do you know about the Service Worker API? <br/>
+https://ponyfoo.com/articles/serviceworker-revolution
 
 When would you use `document.write()`? <br/>
 
@@ -262,13 +266,15 @@ What are the differences between Long-Polling, Websockets and SSE? <br/>
 
 Explain the importance of standards and standards bodies. <br/>
 
-What is FOUC? How do you avoid FOUC? <br/>
+How do you avoid FOUC? <br/>
 
 Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen. <br/>
 
-### References
+### Blogs
 
-[Rebecca Murphey](http://rmurphey.com/)'s [Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end- <br/>developers/)
+[A List Apart](http://alistapart.com/) &mdash; L. Jeffrey Zeldman <br/>
+[Pony Foo](https://ponyfoo.com/) &mdash; Nicolás <br/>
+[Baseline For Front-End Developers](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end- <br/>developers/) &mdash; Rebecca Murphey <br/>
 http://programmers.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before <br/>
 http://www.nczonline.net/blog/2010/01/05/interviewing-the-front-end-engineer/ <br/>
 http://css-tricks.com/interview-questions-css/ <br/>
