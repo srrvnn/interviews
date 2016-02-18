@@ -1,37 +1,31 @@
 function processData(input) {
 
-	var input_lines = input.split('\n');
+    var input_lines = input.split('\n');
 	var no_of_tests = input_lines.shift();
 
 	for (var test = 0; test < no_of_tests; test++) {
 
 		var no_of_days = input_lines.shift();
+        var profit = 0;
 		var stock_prices = input_lines.shift().split(' ');
+        var best_price = 0;
 
-		// console.log('Days:', no_of_days, 'Prices:', stock_prices);
-		console.log(maxFor(1, 0, 0));
+        for (var i = no_of_days - 1; i > -1; i--) {
 
-		function maxFor(day, stocks, investment) {
+            if (Number(stock_prices[i]) > best_price) {
 
-			// var space = Array(day).join('| ');
+                best_price = stock_prices[i];
+            }
 
-			// console.log(space + 'maxFor(', day, stocks, investment, ')');
+            profit = profit + (best_price - stock_prices[i]);
+        }
 
-			if (day > no_of_days) { return 0; }
-
-			var buyProfit = - stock_prices[day - 1] + maxFor(day + 1, stocks + 1, investment - stock_prices[day - 1]);
-			var sellProfit = stocks * stock_prices[day - 1] + maxFor(day + 1, 0, investment + stocks * stock_prices[day - 1]);
-
-			// console.log(space + 'if i buy:', buyProfit);
-			// console.log(space + 'if i sell:', sellProfit);
-
-			return Math.max(buyProfit, sellProfit);
-		}
+        console.log(profit);
 	}
 }
 
 fs = require('fs')
 
-fs.readFile('stockmax_input00.txt', 'utf8', function (err,data) {
+fs.readFile('stockmax_input.txt', 'utf8', function (err,data) {
   	processData(data);
 });
