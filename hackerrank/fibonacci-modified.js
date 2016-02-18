@@ -116,4 +116,8 @@ function processData(input) {
     console.log(series[n-1].replace(/^0*/, ''));
 }
 
-processData('1 1 20');
+fs = require('fs')
+
+fs.readFile('fibonacci-modified_input.txt', 'utf8', function (err,data) {
+    processData(data);
+});

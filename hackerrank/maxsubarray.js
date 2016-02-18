@@ -28,8 +28,8 @@ function processData(input) {
     }
 }
 
-// fs = require('fs')
+fs = require('fs')
 
-// fs.readFile('maxsubarray_input00.txt', 'utf8', function (err,data) {
-//     processData(data);
-// });
+fs.readFile('maxsubarray_input.txt', 'utf8', function (err,data) {
+    processData(data);
+});
