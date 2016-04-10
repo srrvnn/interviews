@@ -1,6 +1,6 @@
 forked from : Darcy Clarke's [Front-end-Developer-Interview-Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
 
-# Front-end Interview Questions
+# Front End Interview Questions
 
 This is an incomplete document with an array of front-end interview questions, and some well-written answers.
 
@@ -31,6 +31,9 @@ Describe the difference between cookies, sessionStorage and localStorage. <br/>
 Can you explain the differences among `GET`, `POST`, `PUT`, and `DELETE`? <br/>
 
 What are your favorite browser API?
+
+What do you know about the DOM API?
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
 
 ### CSS
 
