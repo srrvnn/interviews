@@ -4,6 +4,9 @@ forked from : Darcy Clarke's [Front-end-Developer-Interview-Questions](https://g
 
 This is an incomplete document with an array of front-end interview questions, and some well-written answers.
 
+What would you do to better front end latency?
+https://www.youtube.com/watch?v=ch68MXWUfjo
+
 ### HTML5
 
 What's a `doctype` do? <br/>
@@ -90,7 +93,7 @@ http://www.quirksmode.org/css/cascading/values.html
 ### JavaScript
 
 Explain event delegation. <br/>
-http://yuilibrary.com/yui/docs/event/delegation.html
+https://davidwalsh.name/event-delegate
 
 How would you create and call custom events in JavaScript? <br/>
 http://www.sitepoint.com/javascript-custom-events/
